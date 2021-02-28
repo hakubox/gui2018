@@ -1,0 +1,14 @@
+{
+  "name": "gui2018",
+  "version": "1.0.18",
+  "description": "戈吉HTML框架",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

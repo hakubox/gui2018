@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox='0 0 64 88' style='fill:#B01D2D;'>
+    <g stroke-width='0' transform='translate(32 32)'>
+        <circle cx='24' r='6.634'>
+            <animate attributeName='r' dur='750ms' values='8;7;6;5;4;3;2;1;8' repeatCount='indefinite'/>
+        </circle>
+        <circle cx='16.971' cy='16.971' r='7.634'>
+            <animate attributeName='r' dur='750ms' values='1;8;7;6;5;4;3;2;1' repeatCount='indefinite'/>
+        </circle>
+        <circle cy='24' r='3.563'>
+            <animate attributeName='r' dur='750ms' values='2;1;8;7;6;5;4;3;2' repeatCount='indefinite'/>
+        </circle>
+        <circle cx='-16.971' cy='16.971' r='1.634'>
+            <animate attributeName='r' dur='750ms' values='3;2;1;8;7;6;5;4;3' repeatCount='indefinite'/>
+        </circle>
+        <circle cx='-24' r='2.634'>
+            <animate attributeName='r' dur='750ms' values='4;3;2;1;8;7;6;5;4' repeatCount='indefinite'/>
+        </circle>
+        <circle cx='-16.971' cy='-16.971' r='3.634'>
+            <animate attributeName='r' dur='750ms' values='5;4;3;2;1;8;7;6;5' repeatCount='indefinite'/>
+        </circle>
+        <circle cy='-24' r='4.634'>
+            <animate attributeName='r' dur='750ms' values='6;5;4;3;2;1;8;7;6' repeatCount='indefinite'/>
+        </circle>
+        <circle cx='16.971' cy='-16.971' r='5.634'>
+            <animate attributeName='r' dur='750ms' values='7;6;5;4;3;2;1;8;7' repeatCount='indefinite'/>
+        </circle>
+    </g>
+    <text x="-11" y="85" style="font-size:12px;" >正在努力加载中...</text>
+</svg>

@@ -1,0 +1,48 @@
+/**
+    Name:       IntelliJ IDEA atom-one-dark theme
+    From IntelliJ IDEA by JetBrains
+ */
+.cm-s-atom-one-dark span {
+  font-family: 'Courier New', 'Microsoft YaHei';
+}
+.cm-s-atom-one-dark span.cm-meta { color: #BBB529; }
+.cm-s-atom-one-dark span.cm-number { color: #6897BB; }
+.cm-s-atom-one-dark span.cm-keyword { line-height: 1em; color: #c678dd; }
+.cm-s-atom-one-dark span.cm-def { color: #abb2bf; }
+.cm-s-atom-one-dark span.cm-variable { color: #A9B7C6; }
+.cm-s-atom-one-dark span.cm-variable-2 { color: #A9B7C6; }
+.cm-s-atom-one-dark span.cm-variable-3, .cm-s-atom-one-dark span.cm-type { color: #A9B7C6; }
+.cm-s-atom-one-dark span.cm-property { color: #A9B7C6; }
+.cm-s-atom-one-dark span.cm-operator { color: #A9B7C6; }
+.cm-s-atom-one-dark span.cm-string { color: #98c379; }
+.cm-s-atom-one-dark span.cm-string-2 { color: #6A8759; }
+.cm-s-atom-one-dark span.cm-comment { color: #808080; }
+.cm-s-atom-one-dark span.cm-link { color: #287BDE; }
+.cm-s-atom-one-dark span.cm-atom { font-weight: bold; color: #CC7832; }
+.cm-s-atom-one-dark span.cm-error { color: #BC3F3C; }
+.cm-s-atom-one-dark span.cm-tag { color: #e06c75; }
+.cm-s-atom-one-dark span.cm-attribute { color: #d19a66; }
+.cm-s-atom-one-dark span.cm-qualifier { color: #6A8759; }
+.cm-s-atom-one-dark span.cm-bracket { color: #A9B7C6; }
+.cm-s-atom-one-dark.CodeMirror { background: #282c34; color: #A9B7C6; }
+
+
+.cm-s-atom-one-dark .CodeMirror-cursor { border-left: 1px solid #dddddd; }
+.cm-s-atom-one-dark .CodeMirror-activeline-background { background: #3A3A3A; }
+.cm-s-atom-one-dark div.CodeMirror-selected { background: #085a9c; }
+.cm-s-atom-one-dark .CodeMirror-gutters { background: #222; border-right: 1px solid grey; color: #606366 }
+
+.cm-s-atom-one-dark span.cm-builtin { color: #A9B7C6; }
+.cm-s-atom-one-dark  { font-family: 'Courier New', 'Microsoft YaHei'}
+.cm-s-atom-one-dark .CodeMirror-matchingbracket { background-color: #3b514d; color: yellow !important; }
+
+.CodeMirror-hints.atom-one-dark {
+  font-family: 'Courier New', 'Microsoft YaHei';
+  color: #9c9e9e;
+  background-color: #3b3e3f !important;
+}
+
+.CodeMirror-hints.atom-one-dark .CodeMirror-hint-active {
+  background-color: #494d4e !important;
+  color: #9c9e9e !important;
+}

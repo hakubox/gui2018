@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        .img-border {
+            position: relative;
+            padding-bottom: calc(100% - 2px);
+            box-sizing: border-box;
+            border: 1px solid #EEE;
+        }
+
+        .img-border>img {
+            position: absolute;
+            display: block;
+            margin: auto;
+            top: 10px;
+            left: 10px;
+            bottom: 10px;
+            right: 10px;
+            max-width: calc(100% - 20px);
+            max-height: calc(100% - 20px);
+        }
+    </style>
+</head>
+<body>
+    <div style="width:100px;">
+        <div class="img-border">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539518902345&di=d03556982fb2a8c1e2ea2f319273c4a8&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0186625959cebfa8012193a3fce24b.jpg%401280w_1l_2o_100sh.jpg" />
+        </div>
+    </div>
+    <hr />
+    <img style="width:100px;" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539518902345&di=d03556982fb2a8c1e2ea2f319273c4a8&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0186625959cebfa8012193a3fce24b.jpg%401280w_1l_2o_100sh.jpg" />
+</body>
+</html>

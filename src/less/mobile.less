@@ -1,0 +1,77 @@
+// autoprefixer: > 5%; last 10 Chrome versions; not ie 6-8, main: test.less, sourceMap: true
+
+@media only screen and (orientation : portrait) {
+    html {
+        body {
+            #bgdiv {
+                display: none;
+            }
+
+            #menu-extend {
+                display: inline-block;
+                position: absolute;
+                font-size: 22px;
+                color: #AAA;
+                right: 15px;
+                top: 18px;
+            }
+
+            >header {
+                width: 100vw;
+                padding: 5px 20px;
+
+                >hgroup {
+                    >h1 {
+                        display: inline-block;
+                    }
+                    >h5 {
+                        display: inline-block;
+                        margin-left: 5px;
+                        font-size: 15px;
+                        margin: 6px 8px;
+                        color: #999;
+                        vertical-align: bottom;
+                    }
+                }
+            }
+
+            >main {
+                width: 100%;
+    
+                >aside {
+                    position: fixed;
+                    width: 100%;
+                    margin-top: 0px;
+                    border-radius: 0px;
+                    visibility: hidden;
+                    transform: translateY(20px);
+                    opacity: 0;
+                    transition: 0.2s;
+
+                    &.extend {
+                        visibility: visible;
+                        transform: translateY(0px);
+                        opacity: 1;
+                    }
+
+                    >ul {
+                        border-radius: 0px;
+                    }
+                }
+
+                >section {
+                    width: 100%;
+                    padding: 10px;
+                }
+            }
+            
+            [supercopy] {
+                display: none;
+            }
+
+            dl.demo-content > dt {
+                padding: 10px;
+            }
+        }
+    }
+}
